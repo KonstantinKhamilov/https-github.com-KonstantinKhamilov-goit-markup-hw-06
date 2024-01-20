@@ -692,3 +692,7 @@ form {
   border: none;
   fill: #f4f4fd;
 }
+
+.privacy-policy-link {
+  color: #4d5ae5;
+}
