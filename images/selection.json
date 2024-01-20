@@ -871,6 +871,7 @@
     },
     "historySize": 50,
     "showCodes": true,
-    "gridSize": 16
+    "gridSize": 16,
+    "showGrid": false
   }
 }
