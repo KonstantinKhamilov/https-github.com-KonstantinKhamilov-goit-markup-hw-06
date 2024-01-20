@@ -569,10 +569,8 @@ form {
 .modal-close-svg-style {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-svg-style:hover {
-  fill: #ffffff;
-}
 
+.modal-close-svg-style:hover,
 .modal-close-svg-style:focus {
   fill: #ffffff;
 }
