@@ -455,6 +455,10 @@ a {
   fill: #f4f4fd;
 }
 
+.footer-form {
+  margin-left: 80px;
+}
+
 .footer-form-p {
   margin-bottom: 16px;
   font-weight: 500;
@@ -464,7 +468,7 @@ a {
   color: #ffffff;
 }
 
-.form {
+form {
   display: flex;
   gap: 24px;
 }
@@ -494,7 +498,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5 em;
+  line-height: 1.5em;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -503,4 +507,9 @@ a {
   border-radius: 4px;
   min-width: 165px;
   height: 40px;
+}
+
+.footer-btn-svg-style {
+  display: block;
+  margin-left: 16px;
 }
