@@ -510,6 +510,5 @@ form {
 }
 
 .footer-btn-svg-style {
-  display: block;
-  margin-left: 16px;
+  margin: 8px 0 0 16px;
 }
