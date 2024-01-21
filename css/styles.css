@@ -665,6 +665,9 @@ form {
 }
 
 .form-checkbox-label {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -690,9 +693,6 @@ form {
   > .form-checkbox-span
   > .modal-input-checkbox-off {
   display: none;
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
 }
 
 .form-checkbox-input:not(:checked)
@@ -705,7 +705,7 @@ form {
 .form-checkbox-input:checked
   ~ .form-checkbox-label
   > .form-checkbox-span
-  > .modal-input-checkbox-on {
+  > .checkbox-text {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
