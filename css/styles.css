@@ -703,7 +703,6 @@ form {
 }
 
 .form-checkbox-input:checked ~ .form-checkbox-label > .form-checkbox-span {
-  display: inline-flex;
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
