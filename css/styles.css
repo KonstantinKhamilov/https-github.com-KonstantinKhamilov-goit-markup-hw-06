@@ -690,6 +690,9 @@ form {
   > .form-checkbox-span
   > .modal-input-checkbox-off {
   display: none;
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .form-checkbox-input:not(:checked)
@@ -723,7 +726,7 @@ form {
 
 .btn-submit {
   display: block;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
