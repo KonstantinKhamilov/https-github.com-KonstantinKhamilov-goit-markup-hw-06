@@ -685,10 +685,36 @@ form {
   fill: transparent;
 }
 
-.form-checkbox-input:checked + .form-checkbox-span {
+.form-checkbox-input:checked
+  ~ .form-checkbox-label
+  > .form-checkbox-span
+  > .modal-input-checkbox-off {
+  display: none;
+}
+
+.form-checkbox-input:not(:checked)
+  ~ .form-checkbox-label
+  > .form-checkbox-span
+  > .modal-input-checkbox-on {
+  display: none;
+}
+
+.form-checkbox-input:checked
+  ~ .form-checkbox-label
+  > .form-checkbox-span
+  > .modal-input-checkbox-on {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.modal-input-checkbox-off,
+.modal-input-checkbox-on {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .privacy-policy-link {
@@ -697,7 +723,7 @@ form {
 
 .btn-submit {
   display: block;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
