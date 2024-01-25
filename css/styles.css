@@ -31,7 +31,8 @@ a {
 }
 
 .container {
-  width: 1158px;
+  min-width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -516,6 +517,7 @@ a {
 }
 
 .modal {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -578,6 +580,10 @@ a {
 .modal-btn:hover .modal-close-svg-style,
 .modal-btn:focus .modal-close-svg-style {
   fill: #ffffff;
+}
+
+.modal-btn:checked ~ .modal {
+  display: none;
 }
 
 .modal-p-one {

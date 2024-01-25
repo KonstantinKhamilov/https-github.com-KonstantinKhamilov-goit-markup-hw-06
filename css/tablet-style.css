@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    min-width: 768px;
+    max-width: 1157px;
+    padding: 16px 24px 16px 24px;
+  }
+
+  .head-container {
+    height: 72px;
+    flex-shrink: 0;
+  }
+
+  .logo {
+    width: 115px;
+    height: 24px;
+  }
+
+  .logo-menu {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 40px;
+    padding: 0 0 0 40px;
+  }
+
+  .header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .adress-style {
+    width: 119px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  .adress-info {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header-adress {
+    width: 118px;
+    height: 12px;
+    flex-shrink: 0;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+  }
+
+  .curent {
+    display: flex;
+    width: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
