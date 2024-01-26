@@ -1,13 +1,18 @@
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
-    min-width: 768px;
-    max-width: 1157px;
-    padding: 16px 24px 16px 24px;
+    width: 100%;
+    padding: 16px;
   }
 
   .head-container {
     height: 72px;
     flex-shrink: 0;
+  }
+
+  .container-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
   }
 
   .logo {
@@ -16,27 +21,23 @@
   }
 
   .logo-menu {
-    display: inline-flex;
-    align-items: flex-start;
-    flex-shrink: 0;
-    gap: 40px;
     padding: 0 0 0 40px;
   }
 
   .header-menu {
     display: flex;
-    justify-content: center;
     align-items: center;
   }
 
   .adress-style {
-    width: 119px;
+    width: 35%;
     height: 48px;
     flex-shrink: 0;
   }
 
   .adress-info {
     flex-direction: column;
+    align-items: flex-end;
     gap: 12px;
   }
 
@@ -55,5 +56,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+  }
+
+  .section-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tablet.jpg);
+    min-width: 768px;
+    height: 436px;
+    flex-shrink: 0;
+    padding: 0;
+  }
+
+  .section-one-h-one {
+    font-style: normal;
+    letter-spacing: 1.12px;
+    min-height: 120px;
+    width: 100%;
+  }
+
+  .hero-container {
+    padding: 112px 136px 0 136px;
+  }
+
+  .section-one-btn {
+    padding: 36px auto;
   }
 }
