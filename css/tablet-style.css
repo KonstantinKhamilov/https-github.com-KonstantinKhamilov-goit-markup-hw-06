@@ -84,4 +84,46 @@
   .section-one-btn {
     padding: 36px auto;
   }
+
+  .section-two {
+    padding: 96px 0 0 0;
+  }
+
+  .section-two-card {
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .section-two-card-info {
+    flex-basis: 45%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .section-two-svg,
+  .s-two-svg-style {
+    display: none;
+  }
+
+  .section-two-h-three {
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  .section-two-p {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    text-align: justify;
+  }
 }
