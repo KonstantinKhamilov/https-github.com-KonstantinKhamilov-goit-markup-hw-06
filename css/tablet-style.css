@@ -86,7 +86,7 @@
   }
 
   .section-two {
-    padding: 96px 0 0 0;
+    padding: 96px 0 96px 0;
   }
 
   .section-two-card {
@@ -125,5 +125,44 @@
     font-weight: 500;
     letter-spacing: 0.32px;
     text-align: justify;
+  }
+
+  .section-three {
+    padding: 96px 0;
+  }
+
+  .section-three-h-two {
+    margin: 0 0 0 0;
+  }
+
+  .section-three-h-three {
+    font-style: normal;
+    letter-spacing: 0.4px;
+  }
+
+  .section-three-ul {
+    padding: 72px 92px 0 92px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .section-three-li {
+    display: inline-flex;
+    flex-basis: 47%;
+    min-height: 426px;
+    padding-bottom: 0;
+    margin: 0 0 62px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-three-li > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-three-li-name {
+    width: 90%;
   }
 }
