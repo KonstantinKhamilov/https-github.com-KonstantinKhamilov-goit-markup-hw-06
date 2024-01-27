@@ -205,4 +205,51 @@
     margin: 0;
     padding: 0;
   }
+
+  .section-four-li-info {
+    width: 100%;
+  }
+
+  .footer {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+
+  footer > .container {
+    flex-wrap: wrap;
+    padding: 96px 0 96px 108px;
+    flex-shrink: 0;
+    row-gap: 144px;
+    column-gap: 24px;
+    flex-shrink: 0;
+  }
+
+  .footer-container-logo {
+    margin-right: 0;
+  }
+
+  .footer-container-logo,
+  .footer-container-link {
+    min-width: 264px;
+  }
+
+  .footer-p,
+  .footer-form-p {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+  }
+
+  .footer-form-label {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    column-gap: 36px;
+  }
+
+  .footer-form {
+    margin-left: 0;
+  }
 }
