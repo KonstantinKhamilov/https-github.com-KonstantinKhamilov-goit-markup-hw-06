@@ -219,10 +219,8 @@
   footer > .container {
     flex-wrap: wrap;
     padding: 96px 0 96px 108px;
-    flex-shrink: 0;
     row-gap: 144px;
     column-gap: 24px;
-    flex-shrink: 0;
   }
 
   .footer-container-logo {

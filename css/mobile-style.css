@@ -1,0 +1,108 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    min-width: 290px;
+  }
+
+  .head-container {
+    justify-content: space-between;
+    height: 56px;
+    width: 100%;
+    padding: 0 17px 0 17px;
+  }
+
+  .container-nav {
+    height: 56px;
+    width: 65%;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .logo-menu,
+  .adress-style {
+    display: none;
+  }
+
+  .btn-mobile-menu {
+    display: block;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    line-height: 0;
+  }
+
+  .section-one {
+    width: 100%;
+    height: 432px;
+    padding: 0;
+  }
+
+  .hero-container {
+    width: 50%;
+    padding: 72px 52px 0 52px;
+  }
+
+  .section-one-h-one {
+    font-size: 36px;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    height: 160px;
+  }
+
+  .section-one-btn {
+    padding: 16px 32px 16px 32px;
+  }
+
+  .section-two-h-three,
+  .section-four-h-three {
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    height: auto;
+    text-align: center;
+    min-width: 290px;
+    box-sizing: border-box;
+  }
+
+  .section-two-p {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+  }
+
+  .section-two-card,
+  .section-three-ul,
+  .section-four-ul,
+  .footer-container {
+    flex-direction: column;
+    gap: 72px;
+    min-width: 290px;
+    box-sizing: border-box;
+  }
+
+  .section-two-svg {
+    display: none;
+  }
+
+  .section-two-card-info {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .footer-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
