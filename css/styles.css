@@ -683,6 +683,8 @@ a {
 }
 
 .form-checkbox-label {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   font-size: 12px;
@@ -691,6 +693,7 @@ a {
   color: #8e8f99;
   margin: 0;
   padding: 0;
+  column-gap: 8px;
 }
 
 .form-checkbox-input:checked

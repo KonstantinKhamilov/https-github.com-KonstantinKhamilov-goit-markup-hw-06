@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .modal-window {
+    width: 320px;
+    min-height: 640px;
+  }
+
+  .form-checkbox {
+    width: 256px;
+    margin-bottom: 24px;
+  }
+}
