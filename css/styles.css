@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 ul,
 h1,
 h2,
