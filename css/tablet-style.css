@@ -10,7 +10,7 @@
 
   .head-container {
     height: 72px;
-    padding: 0 16px 0 16px;
+    padding: 24px 16px;
   }
 
   .container-nav {
@@ -34,21 +34,17 @@
   }
 
   .adress-style {
-    height: 48px;
-    padding: 0 0 0 125px;
+    height: 40px;
     margin: 0;
   }
 
   .adress-info {
     flex-direction: column;
-    align-items: flex-end;
-    gap: 12px;
-    width: 100%;
+    row-gap: 12px;
   }
 
   .header-adress {
     width: 118px;
-    height: 12px;
     flex-shrink: 0;
     font-size: 12px;
     line-height: 14px;
@@ -64,30 +60,17 @@
   }
 
   .section-one {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-tablet.jpg);
-    min-width: 768px;
-    height: 436px;
-    flex-shrink: 0;
-    padding: 0;
+    padding: 112px 0;
   }
 
   .section-one-h-one {
     font-style: normal;
     letter-spacing: 1.12px;
-    min-height: 120px;
-    width: 100%;
-  }
-
-  .hero-container {
-    padding: 112px 136px 0 136px;
+    height: 120px;
   }
 
   .section-one-btn {
-    padding: 36px auto;
+    padding: 36px auto 0;
   }
 
   .section-two {
@@ -150,6 +133,7 @@
     justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
+    gap: 64px 24px;
   }
 
   .section-three-li {
@@ -157,7 +141,7 @@
     flex-basis: 47%;
     min-height: 426px;
     padding-bottom: 0;
-    margin: 0 0 62px 0;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -220,10 +204,10 @@
     padding: 0;
   }
 
-  footer > .container {
+  .footer-container {
     flex-wrap: wrap;
-    padding: 96px 0 96px 108px;
-    row-gap: 144px;
+    padding: 0 0 0 108px;
+    row-gap: 72px;
     column-gap: 24px;
   }
 

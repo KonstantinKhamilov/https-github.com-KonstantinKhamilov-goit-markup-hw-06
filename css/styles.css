@@ -40,10 +40,10 @@ a {
 }
 
 .head-container {
-  padding: 0 156px 0 156px;
+  display: flex;
+  padding: 0 156px;
 }
 
-.head-container,
 .container-nav {
   display: flex;
   align-items: center;
@@ -92,7 +92,6 @@ a {
 
 .adress-style {
   font-style: normal;
-  margin: 0 0 0 auto;
 }
 
 .adress-info {
@@ -150,7 +149,7 @@ a {
     ),
     url(../images/people-office_1.jpg);
   background-color: #2e2f42;
-  padding: 188px 0 188px 0;
+  padding: 188px 0;
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -192,7 +191,7 @@ a {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
