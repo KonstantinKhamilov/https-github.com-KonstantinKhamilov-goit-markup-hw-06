@@ -10,12 +10,10 @@
 
   .head-container {
     height: 72px;
-    padding: 24px 16px;
   }
 
   .container-nav {
-    display: flex;
-    justify-content: space-between;
+    padding: 24px 0 24px 16px;
   }
 
   .logo {
@@ -34,13 +32,12 @@
   }
 
   .adress-style {
-    height: 40px;
-    margin: 0;
+    padding: 16px 16px 16px 120px;
   }
 
   .adress-info {
     flex-direction: column;
-    row-gap: 12px;
+    gap: 12px;
   }
 
   .header-adress {
@@ -60,17 +57,19 @@
   }
 
   .section-one {
-    padding: 112px 0;
+    padding: 112px 136px;
+  }
+
+  .container > .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .section-one-h-one {
     font-style: normal;
     letter-spacing: 1.12px;
-    height: 120px;
-  }
-
-  .section-one-btn {
-    padding: 36px auto 0;
   }
 
   .section-two {
@@ -81,6 +80,7 @@
     justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
+    gap: 72px 24px;
   }
 
   .section-two-card-info {
@@ -116,7 +116,7 @@
   }
 
   .section-three {
-    padding: 96px 0 32px 0;
+    padding: 96px 0;
   }
 
   .section-three-h-two {
@@ -129,7 +129,7 @@
   }
 
   .section-three-ul {
-    padding: 72px 92px 0 92px;
+    padding: 72px 108px 0 108px;
     justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
@@ -153,7 +153,7 @@
   }
 
   .section-three-li-name {
-    width: 90%;
+    width: 232px;
   }
 
   .section-three-h-three {
@@ -206,18 +206,13 @@
 
   .footer-container {
     flex-wrap: wrap;
-    padding: 0 0 0 108px;
+    padding: 96px 0 96px 108px;
     row-gap: 72px;
     column-gap: 24px;
   }
 
   .footer-container-logo {
     margin-right: 0;
-  }
-
-  .footer-container-logo,
-  .footer-container-link {
-    min-width: 264px;
   }
 
   .footer-p,
