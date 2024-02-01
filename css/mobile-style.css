@@ -38,6 +38,7 @@
   }
 
   .hero-container {
+    width: min-content;
     padding: 0;
     margin: auto;
   }

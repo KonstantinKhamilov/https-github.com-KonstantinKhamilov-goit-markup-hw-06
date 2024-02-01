@@ -41,12 +41,15 @@ a {
 
 .head-container {
   display: flex;
+  align-items: center;
   padding: 0 156px;
 }
 
 .container-nav {
   display: flex;
   align-items: center;
+  height: 72px;
+  margin-right: 332px;
 }
 
 .logo {
@@ -96,7 +99,8 @@ a {
 
 .adress-info {
   display: flex;
-  gap: 40px;
+  flex-direction: row;
+  column-gap: 40px;
 }
 
 .header-adress {
@@ -166,12 +170,16 @@ a {
   }
 }
 
-.section-one > .container {
+.setion-one > .container {
+  display: none;
+}
+
+.hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 496px;
+  width: 472px;
 }
 
 .section-one-h-one {
@@ -183,6 +191,7 @@ a {
   text-align: center;
   color: #ffffff;
   width: 496px;
+  margin-bottom: 36px;
 }
 
 .section-one-btn {

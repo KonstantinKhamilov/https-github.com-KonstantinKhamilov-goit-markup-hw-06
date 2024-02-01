@@ -9,11 +9,11 @@
   }
 
   .head-container {
-    height: 72px;
+    padding: 0 16px;
   }
 
   .container-nav {
-    padding: 24px 0 24px 16px;
+    margin-right: 0;
   }
 
   .logo {
@@ -31,13 +31,10 @@
     padding: 0 0 0 120px;
   }
 
-  .adress-style {
-    padding: 16px 16px 16px 120px;
-  }
-
   .adress-info {
     flex-direction: column;
-    gap: 12px;
+    row-gap: 12px;
+    padding: 16px 0 0 120px;
   }
 
   .header-adress {
@@ -60,11 +57,8 @@
     padding: 112px 136px;
   }
 
-  .container > .hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  .hero-container {
+    width: 469px;
   }
 
   .section-one-h-one {
@@ -73,18 +67,19 @@
   }
 
   .section-two {
-    padding: 96px 16px;
+    padding: 96px 0;
   }
 
   .section-two-card {
     justify-content: space-evenly;
-    width: 100%;
+
     flex-wrap: wrap;
     gap: 72px 24px;
+    padding: 0 16px;
   }
 
   .section-two-card-info {
-    min-width: 356px;
+    width: 356px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
