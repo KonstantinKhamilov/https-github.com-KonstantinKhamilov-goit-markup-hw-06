@@ -9,7 +9,12 @@
   .head-container {
     justify-content: space-between;
     height: 56px;
-    padding: 0 17px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-nav {
+    margin-right: 0;
   }
 
   .logo {

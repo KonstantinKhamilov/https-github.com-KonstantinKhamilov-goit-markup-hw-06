@@ -39,7 +39,6 @@
 
   .header-adress {
     width: 118px;
-    flex-shrink: 0;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
